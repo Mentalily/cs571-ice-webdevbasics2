@@ -23,7 +23,7 @@ for (let ingr of ingrs) {
 }
 
 // TODO Implement the update yield!
-function updateYield(selector) {
+function updateYield() {
     let selector = document.getElementById("serving-selector");
     console.log(selector.value);
     console.log(typeof selector.value);
@@ -41,11 +41,3 @@ function displayReview() {
     alert(REVIEWS[reviewNum]);
     reviewNum = (reviewNum + 1) % REVIEWS.length;
 }
-
-// function foo() {
-//     // "use strict";
-//     return this;
-// }
-
-// Number.prototype.foo = foo;
-// console.log((1).foo());
